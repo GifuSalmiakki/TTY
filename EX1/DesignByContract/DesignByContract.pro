@@ -1,7 +1,7 @@
 TEMPLATE = app
 CONFIG += console c++17
-CONFIG -= app_bundle
 CONFIG += qt
+CONFIG -= app_bundle
 
 SOURCES += \
         date.cc \
