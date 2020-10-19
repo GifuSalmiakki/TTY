@@ -6,8 +6,9 @@ CONFIG -= app_bundle
 
 TEMPLATE = app
 
-SOURCES +=  datetest.cpp \
-       ../../WelcomeToTampere/date.cc
+SOURCES +=  \
+       ../../WelcomeToTampere/date.cc \
+       tst_date.cpp
 
 HEADERS += \
     ../../WelcomeToTampere/date.hh
