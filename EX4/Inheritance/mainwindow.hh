@@ -4,12 +4,14 @@
 #include "objectcontroller.hh"
 #include "constants.hh"
 #include "movingobjectgraphics.hh"
+#include "dialog.hh"
 
 #include <QMainWindow>
 #include <QGraphicsView>
 #include <QPushButton>
 #include <QTimer>
 #include <QString>
+#include <QDialog>
 
 namespace Ui {
 class MainWindow;

@@ -17,7 +17,11 @@ int main(int argc, char *argv[])
 
     MainWindow w(engine);
 
+    Dialog dialog;
+    dialog.exec();
+
     w.show();
+
 
     return a.exec();
 }
